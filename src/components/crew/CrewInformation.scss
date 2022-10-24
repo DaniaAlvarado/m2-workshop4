@@ -1,0 +1,53 @@
+@import '../../styles/universal.scss';
+
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    &__tittle{
+        width: 100%;
+        margin-bottom: 80px;
+        span{
+            @include Heading4;
+        }
+    }
+    &__role{
+        width: 100%;
+        
+        span{
+            @include Heading4;
+        }
+    }
+    &__name{
+        width: 100%;
+        span{
+            @include Heading3;
+        }
+    }
+    &__bio{
+        width: 100%;
+        p{
+            color: #FFFFFF;
+            line-height: 30px;
+        }
+    }
+    &__btn--active{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #FFFFFF;
+    }
+    &__btn--inactive{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: gray;
+    }
+}
+
+.right{
+    img{
+        width: 80%;
+    }
+}
