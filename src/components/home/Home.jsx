@@ -7,9 +7,7 @@ const Home = () => {
             <div className="home__background">
                 <img src={Background} alt="Home background" />
             </div>
-            <div className="header">
-                <h1>header</h1>
-            </div>
+
         </section>
     )
 }

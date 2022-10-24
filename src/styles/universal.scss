@@ -1,5 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+@mixin Heading1{
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+    color: #FFFFFF;
+    // font-family: 'Barlow Condensed', sans-serif;
+}
+@mixin Heading2{
+    font-family: 'Bellefair', serif;
+    font-size: 100px;
+    color: #FFFFFF;
+    // font-family: 'Barlow Condensed', sans-serif;
+}
+@mixin Heading3{
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    color: #FFFFFF;
+    // font-family: 'Barlow Condensed', sans-serif;
+}
+@mixin Heading4{
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    color: #FFFFFF;
+    // font-family: 'Barlow Condensed', sans-serif;
+}
+@mixin Heading5{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 4.75;
+    font-size: 28px;
+    color: #D0D6F9;
+    // font-family: 'Bellefair', serif;
+}
+
+@mixin Subheading1 {
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+}
+
+@mixin Subheading2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2.35;
+}
+
+@mixin NavText {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7;
+    &:hover{
+        color: #D0D6F9;
+    }
 }
