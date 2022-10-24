@@ -1,10 +1,16 @@
 import React from "react";
-
+import Background from '../../assets/home/background-home-desktop.jpg'
+import './Home.scss'
 const Home = () => {
     return (
-        <div>
-            <h1>Holaaa</h1>
-        </div>
+        <section className="home">
+            <div className="home__background">
+                <img src={Background} alt="Home background" />
+            </div>
+            <div className="header">
+                <h1>header</h1>
+            </div>
+        </section>
     )
 }
 
