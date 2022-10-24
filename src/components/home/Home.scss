@@ -18,7 +18,8 @@
     &__main{
         display: flex;
         flex-wrap: wrap;
-        padding: 300px 100px 0 100px;
+        margin-top: 100px;
+        padding: 0 100px 0 100px;
         position: relative;
         z-index: 1;
         justify-content: space-between;
@@ -71,11 +72,14 @@
     .home{
         &__main{
             flex-direction: column;
-            padding: 60px 50px 60px 50px;
+            margin-top: 10px;
+            padding: 0px 50px 0px 50px;
             align-items: center;
+            
             &__left{
                 width: 100%;
                 text-align: center;
+                gap: 10px;
                 &__tittle2{
                     span{
                         margin: 0 auto;
