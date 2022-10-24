@@ -6,10 +6,10 @@ import './Destination.scss'
 const Destination = () => {
     return (
         <section className="destination">
-            <Header />
             <div className="destination__background">
                 <img src={Background} alt="Destination background" />
             </div>
+            <Header />
         </section>
     )
 }

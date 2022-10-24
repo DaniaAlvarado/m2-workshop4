@@ -6,10 +6,10 @@ import './Crew.scss';
 const Crew = () => {
     return (
         <section className="crew">
-            <Header />
             <div className="crew__background">
                 <img src={Background} alt="Crew background" />
             </div>
+            <Header />
         </section>
     )
 }

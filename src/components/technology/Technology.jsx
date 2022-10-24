@@ -6,10 +6,10 @@ import './Technology.scss';
 const Technology = () => {
     return (
         <section className="technology">
-            <Header />
             <div className="technology__background">
                 <img src={Background} alt="Technology background" />
             </div>
+            <Header />
         </section>
     )
 }
