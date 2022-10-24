@@ -2,9 +2,12 @@ import React from "react";
 
 const Home = () => {
     return (
-        <div>
-            Home
-        </div>)
+        <>
+
+            <h1>Holaaa</h1>
+
+        </>
+    )
 }
 
 export default Home;
