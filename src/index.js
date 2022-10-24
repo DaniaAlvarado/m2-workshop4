@@ -4,6 +4,11 @@ import Router from './routes/Router.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Router />
+  <section className="principal">
+    <Router />
+
+  </section>
+
+
 );
 

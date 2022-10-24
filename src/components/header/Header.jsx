@@ -19,37 +19,25 @@ const Header = () => {
                     <ul className="header__menu">
                         <li className="header__menu__item">
                             <Link to="/"
-                                style={{ textDecoration: 'none' }}
-                                activeStyle={{
-                                    color: "#D0D6F9"
-                                }}>
+                                style={{ textDecoration: 'none' }}>
                                 <span>HOME</span>
                             </Link>
                         </li>
                         <li className="header__menu__item">
-                            <Link to="/"
-                                style={{ textDecoration: 'none' }}
-                                activeStyle={{
-                                    color: "#D0D6F9"
-                                }}>
+                            <Link to="/destination"
+                                style={{ textDecoration: 'none' }}>
                                 <span>DESTINATION</span>
                             </Link>
                         </li>
                         <li className="header__menu__item">
-                            <Link to="/"
-                                style={{ textDecoration: 'none' }}
-                                activeStyle={{
-                                    color: "#D0D6F9"
-                                }}>
+                            <Link to="/crew"
+                                style={{ textDecoration: 'none' }}>
                                 <span>CREW</span>
                             </Link>
                         </li>
                         <li className="header__menu__item">
-                            <Link to="/"
-                                style={{ textDecoration: 'none' }}
-                                activeStyle={{
-                                    color: "#D0D6F9"
-                                }}>
+                            <Link to="/technology"
+                                style={{ textDecoration: 'none' }}>
                                 <span>TECHNOLOGY</span>
                             </Link>
                         </li>
