@@ -46,6 +46,7 @@
                     list-style: none;
                     span{
                             @include NavText;
+                            cursor: pointer;
                     }
                 }
             }
@@ -59,8 +60,13 @@
                 display: flex;
                 justify-content: space-between;
                 div{
+                    display: flex;
+                    flex-direction: column;
                     .title{
                         @include NavText
+                    }
+                    .travel{
+                        color: white;
                     }
                 }
             }
