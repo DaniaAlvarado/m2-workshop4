@@ -58,8 +58,8 @@ const CrewInformation = (crewInfo) => {
                                 key={index}
                                 name={member.name}
                                 className={member === crewMember ?
-                                    "left__btn--active" :
-                                    "left__btn--inactive"}>
+                                    "left__btn--active left__btn" :
+                                    "left__btn--inactive left__btn"} >
                             </div>
                         )
                     }

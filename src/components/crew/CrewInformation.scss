@@ -6,6 +6,7 @@
     flex-direction: column;
     gap: 20px;
     &__tittle{
+        display: flex;
         width: 100%;
         margin-bottom: 80px;
         span{
@@ -13,14 +14,15 @@
         }
     }
     &__role{
+        display: flex;
         width: 100%;
-        
         span{
             @include Heading4;
         }
     }
     &__name{
         width: 100%;
+        display:flex ;
         span{
             @include Heading3;
         }
@@ -32,22 +34,70 @@
             line-height: 30px;
         }
     }
-    &__btn--active{
-        width: 50px;
-        height: 50px;
+    &__buttons{
+        margin-top: 50px;
+        display: flex;
+        gap: 20px;
+    }
+    &__btn{
+        width: 20px;
+        height: 20px;
         border-radius: 50%;
+        cursor: pointer;
+    }
+    &__btn--active{
+        
         background-color: #FFFFFF;
     }
     &__btn--inactive{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
+        
         background-color: gray;
     }
 }
 
 .right{
+    display: flex;
     img{
         width: 80%;
+    }
+}
+
+@media (max-width:1350px) {
+    .left{
+        width: 100%;
+        gap: 10px;
+        &__tittle{
+            text-align: center;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        &__role{
+            justify-content: center;
+        }
+        &__name{
+            text-align: center;
+            justify-content: center;
+        }
+        &__bio{
+            justify-content: center;
+            text-align: center;
+        }
+        &__buttons{
+            margin-top: 10px;
+            justify-content: center;
+        }
+    }
+    .right{
+        width: 100%;
+        justify-content: center;
+        div{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            img{
+                width:65%;
+            }
+        }
+        
     }
 }
