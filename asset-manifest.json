@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/m2-workshop4/static/css/main.b764732c.css",
+    "main.js": "/m2-workshop4/static/js/main.299fd125.js",
+    "static/media/background-home-desktop.jpg": "/m2-workshop4/static/media/background-home-desktop.cdf3864ecbfdf20e8c3b.jpg",
+    "static/media/background-destination-desktop.jpg": "/m2-workshop4/static/media/background-destination-desktop.468b922c69bf5499b4bc.jpg",
+    "static/media/image-anousheh-ansari.webp": "/m2-workshop4/static/media/image-anousheh-ansari.bb42b775ee0b12430f3a.webp",
+    "static/media/image-victor-glover.webp": "/m2-workshop4/static/media/image-victor-glover.1c271f99bab8b06d7ab5.webp",
+    "static/media/image-douglas-hurley.webp": "/m2-workshop4/static/media/image-douglas-hurley.e4c7def427824ef543c0.webp",
+    "static/media/background-crew-desktop.jpg": "/m2-workshop4/static/media/background-crew-desktop.88a3c692fd34eb311e04.jpg",
+    "static/media/image-mark-shuttleworth.webp": "/m2-workshop4/static/media/image-mark-shuttleworth.665e198adc22fcdf7810.webp",
+    "static/media/background-technology-desktop.jpg": "/m2-workshop4/static/media/background-technology-desktop.b7b589b3c0c5ef0811d4.jpg",
+    "static/media/image-europa.webp": "/m2-workshop4/static/media/image-europa.c3be32383f31d0f76d96.webp",
+    "static/media/image-moon.webp": "/m2-workshop4/static/media/image-moon.b5a3c90e9c8eeb2cb68d.webp",
+    "static/media/image-mars.webp": "/m2-workshop4/static/media/image-mars.7f55f721b4a64b7a56a8.webp",
+    "static/media/image-titan.webp": "/m2-workshop4/static/media/image-titan.80738bc61e5d1217a19a.webp",
+    "index.html": "/m2-workshop4/index.html",
+    "static/media/logo.svg": "/m2-workshop4/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
+    "static/media/icon-close.svg": "/m2-workshop4/static/media/icon-close.d47fda63cbd8b3fedbbc1b2a53f64470.svg",
+    "static/media/icon-hamburger.svg": "/m2-workshop4/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
+    "main.b764732c.css.map": "/m2-workshop4/static/css/main.b764732c.css.map",
+    "main.299fd125.js.map": "/m2-workshop4/static/js/main.299fd125.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b764732c.css",
+    "static/js/main.299fd125.js"
+  ]
+}
